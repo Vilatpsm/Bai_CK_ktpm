@@ -1,0 +1,185 @@
+{
+  "id": "3c54ef46-eac0-4c82-858b-f2856d75e341",
+  "version": "2.0",
+  "name": "lazada1",
+  "url": "https://www.lazada.vn/",
+  "tests": [{
+    "id": "b521c85d-3ef6-4b5c-be3b-2205bc687940",
+    "name": "file i phone 8",
+    "commands": [{
+      "id": "153bf667-f396-49e4-a653-dcb2a4500fd3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.lazada.vn/#?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46fb0d38-9144-4eb0-96d3-02724607842f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ee612a7-6eb6-49a7-ae78-0b7400c3b68d",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73b62150-e5ee-4160-8364-dbd862d13215",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "i phone x"
+    }, {
+      "id": "0db9709a-0dfe-4aa2-b9ba-73667a0bb5d3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEARCH",
+      "targets": [
+        ["linkText=SEARCH", "linkText"],
+        ["css=.search-box__button--1oH7", "css:finder"],
+        ["xpath=//a[contains(text(),'SEARCH')]", "xpath:link"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/div/form/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/catalog/?spm=a2o4n.homepage.search.d_go.19053bdcDiPUhD&q=i%20phone%208')]", "xpath:href"],
+        ["xpath=//form/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SEARCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f03c4e1-c50a-45c4-ac02-40f29d16519a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Bm3ON:nth-child(2) .RfADt",
+      "targets": [
+        ["css=.Bm3ON:nth-child(2) .RfADt", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c2a44e-6cf1-49ed-9ff3-5761ecf107bf",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=[E-Voucher] Sở hữu lPhone 15 Pro Max 512Gb - Basic 2024",
+      "targets": [],
+      "value": "[E-Voucher] Sở hữu lPhone 15 Pro Max 512Gb - Basic 2024"
+    }, {
+      "id": "9ce9c45f-43f5-4795-850b-8b8676c58e1e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,772.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ba70d08-e974-4791-b656-9fc4114367a7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,992.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9a28fc9-05b8-4653-8228-48d31d75d570",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1238.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ebd3dab-ecd3-42ba-a247-762c644cb45f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1543.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34198ef5-e1e4-4f32-9cc4-ac6604b69a57",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1546.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa106728-3b0b-45cb-b4c8-a0e0c0ce6d4e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1690.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6e33b40-1de1-435c-9836-eea5a3d236a7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1911.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd994574-c319-4456-954a-2ad400f6ba67",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,922.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bff3c0eb-42da-4167-820b-cfeeae5020e1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,540.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "716a2562-feb6-4c78-b2dc-5e35fe247676",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Bm3ON:nth-child(6) .buTCk",
+      "targets": [
+        ["css=.Bm3ON:nth-child(6) .buTCk", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div[6]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[6]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "296a6db0-f67a-4f92-b94c-973d9c1a5441",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEARCH",
+      "targets": [
+        ["linkText=SEARCH", "linkText"],
+        ["css=.search-box__button--1oH7", "css:finder"],
+        ["xpath=//a[contains(text(),'SEARCH')]", "xpath:link"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/div/form/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.lazada.vn/catalog/?spm=a2o4n.searchlist.search.d_go.d02940e5Y75ZQz&q=i%20phone%208')]", "xpath:href"],
+        ["xpath=//form/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SEARCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d63a785a-9184-4cca-bff7-eb294ca69a2d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b521c85d-3ef6-4b5c-be3b-2205bc687940"]
+  }],
+  "urls": ["https://www.lazada.vn/"],
+  "plugins": []
+}
